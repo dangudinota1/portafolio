@@ -1,0 +1,49 @@
+.hero {
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    color: #fff;
+    padding: 4rem 1rem;
+    margin-bottom: 2rem
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block
+}
+
+.task-card {
+    border: none;
+    border-radius: 20px;
+    transition: .3s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .08)
+}
+
+.task-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 35px rgba(37, 99, 235, .18)
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto 1rem;
+    font-size: 2rem
+}
+
+.blue {
+    background: linear-gradient(135deg, #2563eb, #60a5fa)
+}
+
+.green {
+    background: linear-gradient(135deg, #10b981, #34d399)
+}
+
+body {
+    background: #f5f7fb;
+    font-family: Segoe UI, sans-serif
+}
